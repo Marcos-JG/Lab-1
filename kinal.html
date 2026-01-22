@@ -8,9 +8,7 @@
 </head>
 
 <body>
-
-    <!-- Navegación -->
-    <header class="nav-bar">
+    <header class="barraNav">
         <div class="logo">
             <img src="https://static.wixstatic.com/media/128120_cfcd43999075474d8400eb39987892ca~mv2.png/v1/fill/w_171,h_62,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/FUNDACI%C3%83%C2%93N_KINAL_VECTOR--0101.png"
                 alt="">
@@ -23,16 +21,15 @@
             <a href="#contacto">Contacto</a>
         </nav>
     </header>
-
-    <div class="hero-container">
+    <div class="contenedorPrincipal">
         <img src="https://static.wixstatic.com/media/128120_2149451250ff47698d7060f748273a41~mv2.png/v1/fit/w_2500,h_1330,al_c/128120_2149451250ff47698d7060f748273a41~mv2.png"
-            class="principal-image" alt="Imagen Principal">
+            class="imagenPrincipal" alt="Imagen Principal">
         <img src="https://static.wixstatic.com/media/41a674_ea775caaa39b4b72b7930dee2ba6eaa4~mv2.png/v1/fill/w_980,h_354,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/KINAL%20LETRAS%20BLANCAS%202.png"
-            class="logo-overlay" alt="Logo Fundación Kinal">
+            class="superposicionLogo" alt="Logo Fundación Kinal">
     </div>
-
-    <!-- Hero -->
-    <section class="hero">
+    <section class="modulo">
+        <img src="https://static.wixstatic.com/media/128120_ee5ccdee60e04a118d1e3759431825ed~mv2.png/v1/fill/w_468,h_496,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/128120_ee5ccdee60e04a118d1e3759431825ed~mv2.png"
+            class="logoSecundario" alt="">
         <h1>Tu camino al éxito está en Kinal</h1>
         <div class="parrafo">
             <p>Kinal es un Centro Educativo privado, no lucrativo, dirigido a la formación técnica profesional de
@@ -45,10 +42,45 @@
                 alumnos y el medio para servir a los demás.</p>
         </div>
     </section>
-
-
-    <!-- Quiénes Somos -->
-    <section id="quienes" class="hero">
+    <section id="educacion" class="seccion">
+        <h1>Programas Educativos</h1>
+        <div class="contenedorTarjetas">
+            <div class="tarjeta">
+                <img src="https://static.wixstatic.com/media/128120_e70270b3fe48460d91faa702eb0e3619~mv2.jpg/v1/fill/w_540,h_564,al_c,lg_1,q_80,enc_avif,quality_auto/individualMesa%20de%20trabajo%202.jpg"
+                    class="imagenPequeña" alt="">
+                <p class="">Kinal ofrece su programa de Educación General Básica para todos aquellos jóvenes que buscan
+                    una
+                    orientación técnica y excelencia académica</p>
+            </div>
+            <div class="tarjeta">
+                <img src="https://static.wixstatic.com/media/128120_f7e5ea02ac774e6fba7863af89dd605d~mv2.jpg/v1/fill/w_540,h_564,al_c,lg_1,q_80,enc_avif,quality_auto/ruta02.jpg"
+                    class="imagenPequeña" alt="">
+                <p>Durante 3 años se prepara al joven de forma técnica y académica, el egresado estará listo para
+                    trabajar en el ramo técnico de la especialidad que eligió estudiar; el título obtenido le permitirá
+                    ingresar a la universidad.</p>
+            </div>
+            <div class="tarjeta">
+                <img src="https://static.wixstatic.com/media/128120_3235e56086f844b48fffcc2d7b117fa2~mv2.jpg/v1/fill/w_540,h_564,al_c,lg_1,q_80,enc_avif,quality_auto/ruta03.jpg"
+                    class="imagenPequeña" alt="">
+                <p>Contamos con más de 30 especialidades técnicas y tecnológicas que pueden favorecer tu crecimiento y/o
+                    tu inserción laboral.</p>
+            </div>
+            <div class="tarjeta">
+                <img src="https://static.wixstatic.com/media/128120_df1be5ed57af457d8b300e3ff470f4b8~mv2.jpg/v1/fill/w_540,h_619,al_c,lg_1,q_80,enc_avif,quality_auto/ruta05.jpg"
+                    class="imagenPequeña" alt="">
+                <p>Podemos diseñar conjuntamente el programa de formación profesional que mejor se adapte a tus
+                    necesidades de capacitación.</p>
+            </div>
+            <div class="tarjeta">
+                <img src="https://static.wixstatic.com/media/128120_f64d9e1f7bbc4e74bd1b66317a121b4b~mv2.jpg/v1/fill/w_540,h_619,al_c,lg_1,q_80,enc_avif,quality_auto/ruta04.jpg"
+                    class="imagenPequeña" alt="">
+                <p>Dirigido al fortalecimiento de mandos medios y especialmente aquellos que han cursado una carrera
+                    técnica y desean continuar con estudios a nivel universitario. Estos estudios son avalados por la
+                    Universidad del Istmo.</p>
+            </div>
+        </div>
+    </section>
+    <section id="quienes" class="modulo">
         <h1>Quiénes Somos</h1>
         <div class="parrafo">
             <p>
@@ -61,35 +93,9 @@
             </p>
         </div>
     </section>
-
-    <!-- Programas Educativos -->
-    <section id="educacion" class="section grid-cards">
-        <h1>Programas Educativos</h1>
-        <div class="card">
-            <img src="https://static.wixstatic.com/media/128120_e70270b3fe48460d91faa702eb0e3619~mv2.jpg/v1/fill/w_540,h_564,al_c,lg_1,q_80,enc_avif,quality_auto/individualMesa%20de%20trabajo%202.jpg"
-                class="pequeñas-image" alt="">
-        </div>
-        <div class="card">
-            <img src="https://static.wixstatic.com/media/128120_f7e5ea02ac774e6fba7863af89dd605d~mv2.jpg/v1/fill/w_540,h_564,al_c,lg_1,q_80,enc_avif,quality_auto/ruta02.jpg"
-                class="pequeñas-image" alt="">
-        </div>
-        <div class="card">
-            <img src="https://static.wixstatic.com/media/128120_3235e56086f844b48fffcc2d7b117fa2~mv2.jpg/v1/fill/w_540,h_564,al_c,lg_1,q_80,enc_avif,quality_auto/ruta03.jpg"
-                class="pequeñas-image" alt="">
-        </div>
-        <div class="card">
-            <img src="https://static.wixstatic.com/media/128120_df1be5ed57af457d8b300e3ff470f4b8~mv2.jpg/v1/fill/w_540,h_619,al_c,lg_1,q_80,enc_avif,quality_auto/ruta05.jpg"
-                class="pequeñas-image" alt="">
-        </div>
-        <div class="card">
-            <img src="https://static.wixstatic.com/media/128120_f64d9e1f7bbc4e74bd1b66317a121b4b~mv2.jpg/v1/fill/w_540,h_619,al_c,lg_1,q_80,enc_avif,quality_auto/ruta04.jpg"
-                class="pequeñas-image" alt="">
-        </div>
-    </section>
-
-    <div class="patrocinadores">
+    <div class="Partners">
         <h2>Nuestros Partners</h2>
-        <div class="gridImages">
+        <div class="gridImagenes">
 
             <img src="https://motorcycle-logos.com/wp-content/uploads/2016/10/Honda-motorcycle-logo.png" alt="">
 
@@ -98,38 +104,36 @@
 
             <img src="https://losabogadosenguatemala.com/wp-content/uploads/2022/01/LOGO-UNIS-LOGO-UNIVERSIDAD-DEL-ITSMO-1024x474.png"
                 alt="">
-            <img src="https://th.bing.com/th/id/R.b765ec41b98fb4306fa2780519d1a8e9?rik=4GgB1PYyu6UPGA&pid=ImgRaw&r=0" alt="">
+            <img src="https://th.bing.com/th/id/R.b765ec41b98fb4306fa2780519d1a8e9?rik=4GgB1PYyu6UPGA&pid=ImgRaw&r=0"
+                alt="">
         </div>
-
-
     </div>
-    <!-- Bolsa de Empleos -->
-    <section id="bolsa" class="section highlight">
-        <h2>Bolsa de Empleos</h2>
-        <p>
-            ¡Las empresas están buscando a nuestros egresados! Conectamos a estudiantes
-            con oportunidades laborales reales basadas en sus habilidades.
-        </p>
-        <a href="#" class="btn-cta">Ver Ofertas</a>
-    </section>
-
-    <!-- Galería -->
-    <section id="galeria" class="section">
-        <h2>Galería de Fotos</h2>
-        <div class="image-grid">
-            <img src="img1.jpg" alt="Foto de estudiantes">
-            <img src="img2.jpg" alt="Aula técnica">
-            <img src="img3.jpg" alt="Evento Kinal">
+    <div class="contenedor">
+        <div>
+            <img src="https://static.wixstatic.com/media/128120_7e0f6d8a54fd4c1ab3a3e8fb34c6f657~mv2.jpg/v1/fill/w_540,h_569,al_c,q_80,enc_avif,quality_auto/128120_7e0f6d8a54fd4c1ab3a3e8fb34c6f657~mv2.jpg"
+                alt="">
         </div>
-    </section>
+        <div class="miniContenedor">
+            <h1><span class="titulo-principal">Eres antiguo alumno?</span><br>Las mejores empresas buscan talento en
+                Kinal</h1>
+        </div>
+    </div>
+    <div class="contenedor">
+        <div class="miniContenedor">
+            <h1><span class="titulo-principal">Necesitamos más jóvenes talentosos como tú</span></h1>
+        </div>
+        <div>
+            <img src="https://static.wixstatic.com/media/128120_cdcd67c9ca5a426eaa51733840da6a50~mv2.jpg/v1/fill/w_645,h_734,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/128120_cdcd67c9ca5a426eaa51733840da6a50~mv2.jpg"
+                alt="">
+        </div>
+    </div>
 
-    <!-- Contacto -->
+    
     <footer id="contacto" class="footer">
         <h2>Contacto</h2>
         <p>6a Avenida 13-54 Zona 7, Colonia Landívar, Ciudad de Guatemala 🇬🇹</p>
         <p>Email: info@kinal.org.gt | Tel: 2216-0000</p>
     </footer>
-
 </body>
 
 </html>
